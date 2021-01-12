@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My App</string>
+    <string name="button_insert">Insert</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_update">Update</string>
+    <string name="button_view">View</string>
+    <string name="button_back">Back</string>
+    <string name="button_send">Send</string>
+    <string name="button_calculation">Calculation</string>
+    <string name="text_id">ID</string>
+    <string name="text_name">Name</string>
+    <string name="text_email">Email</string>
+    <string name="text_year">Year Birthday</string>
+    <string name="text_number1">Number1</string>
+    <string name="text_number2">Number2</string>
+</resources>

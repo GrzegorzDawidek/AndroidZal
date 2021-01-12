@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Moja pierwsza aplikacja</string>
+    <string name="button_insert">Wstaw</string>
+    <string name="button_delete">Usuń</string>
+    <string name="button_update">Aktualizuj</string>
+    <string name="button_view">Wyświetl</string>
+    <string name="button_back">Cofnij</string>
+    <string name="button_send">Wyślij</string>
+    <string name="button_calculation">kalkulacja</string>
+    <string name="text_id">ID</string>
+    <string name="text_name">Imie</string>
+    <string name="text_email">Email</string>
+    <string name="text_year">Rok urodzenia</string>
+    <string name="text_number1">Numer1</string>
+    <string name="text_number2">Numer2</string>
+</resources>

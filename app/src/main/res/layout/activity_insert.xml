@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsertActivity">
+
+
+    <EditText
+        android:id="@+id/nameTextInsert"
+        android:layout_width="391dp"
+        android:layout_height="56dp"
+        android:layout_margin="10dp"
+        android:hint="@string/text_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <EditText
+        android:id="@+id/emailTextInsert"
+        android:layout_width="391dp"
+        android:layout_height="56dp"
+        android:layout_margin="10dp"
+        android:hint="@string/text_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTextInsert"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/yearTextInsert"
+        android:layout_width="391dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:hint="@string/text_year"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailTextInsert"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_insertInsert"
+        android:layout_width="327dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="44dp"
+        android:background="#08C822"
+        android:text="@string/button_insert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yearTextInsert"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_backInsert"
+        android:layout_width="327dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="44dp"
+        android:background="#08C822"
+        android:text="@string/button_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_insertInsert"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
